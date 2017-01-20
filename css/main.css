@@ -144,3 +144,69 @@ a.button:hover {
 	letter-spacing: 0.1px;
 	font-size: 14px;
 }
+
+@media (max-width: 615px){
+	.search-box input {
+		width: 500px;
+	}	
+}
+
+@media (max-width: 507px){
+	.left-site-links {
+		float: none;
+		margin: auto;
+		width: 50%;
+	}
+	.right-site-links {
+		float: none;
+		margin: auto;
+		width: 50%;
+	}
+	.search-box input {
+		width: 350px;
+	}
+}
+
+@media (max-width: 442px){
+	.left-site-links {
+		float: none;
+		margin: auto;
+		width: 60%;
+	}
+	.right-site-links {
+		float: none;
+		margin: auto;
+		width: 60%;
+	}
+}
+
+@media (max-width: 421px){
+	.top-navigation {
+		float: none;
+		margin: auto;
+	}
+	.search-box img {
+		margin-top: -100px;
+	}
+}
+
+@media (max-width: 379px){
+	.left-site-links {
+		float: none;
+		margin: auto;
+		width: 70%;
+	}
+	.right-site-links {
+		float: none;
+		margin: auto;
+		width: 70%;
+	}
+		.search-box input {
+		width: 300px;
+	}
+		.top-navigation {
+		float: none;
+		margin: auto;
+		width: 60%;
+	}
+}
